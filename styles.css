@@ -1,0 +1,122 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #FBDD6C;
+    font-family: Roboto, sans-serif;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+button {
+    background-color: #FFE996 ;
+    color: #A0810E;
+    font-size: 1.5rem;
+    padding: 0.7rem;
+    border: 3px solid #DFBF45;
+    border-radius: 12px;
+}
+
+button:hover {
+    background-color: #C7A421;
+    color: #FFE996;
+}
+
+button:active {
+    background-color: #A0810E;
+}
+
+.title {
+    color: #A0810E;
+    font-weight: bolder;
+    font-size: 3rem;
+    text-align: center;
+    padding: 2rem;
+}
+/* to do*/
+.main-container {
+    /*background-color: gray;*/
+    display: grid;
+    grid-template: 3rem auto 2rem auto / 1fr 1fr 1fr;
+    place-items: center;
+    grid-gap: 1.5rem;
+    width: auto;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+.grid-item {
+    /*background-color: lightblue;*/
+    font-size: 1.5rem;
+    /*text-align: center;*/
+}
+
+.result {
+    font-weight: 700;
+    font-size: 2rem;
+}
+
+.result.match {
+    color: #23176F;
+    font-weight: 800;
+    font-size: 2.5rem;
+}
+
+.player-selection {
+    color: #A0810E;
+    font-size: 1.5rem;
+    display: flex;
+    flex-flow: column;
+    gap: 0.7rem;
+}
+
+.score {
+    color: #A0810E;
+    font-size: 2rem;
+}
+
+.score.player {
+    justify-self: end;
+}
+
+.score.comp {
+    justify-self: start;
+}
+
+.restart {
+    display: none;
+    grid-column: 1 / span 3;
+}
+
+.disabled {
+    color: #C4BA94;
+    background-color: #E2D9B8;
+    border-color: #BDB69F;
+    pointer-events: none;
+}
+
+.color-win {
+    color: #34268A;
+}
+
+.color-lose {
+    color: #8B81CA;
+}
+
+.color-draw {
+    color: #4A3D9B;
+}
+
+.color-primary-0 { color: #DFBF45 }	/* Main Primary color */
+.color-primary-1 { color: #FFE996 }
+.color-primary-2 { color: #FBDD6C }
+.color-primary-3 { color: #C7A421 }
+.color-primary-4 { color: #A0810E }
+
+.color-complement-0 { color: #4A3D9B }	/* Main Complement color */
+.color-complement-1 { color: #8B81CA }
+.color-complement-2 { color: #6458AE }
+.color-complement-3 { color: #34268A }
+.color-complement-4 { color: #23176F }
