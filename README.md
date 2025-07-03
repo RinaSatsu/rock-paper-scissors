@@ -23,7 +23,7 @@ This project is built using the following technologies:
 If you encounter any issues while playing the game or have suggestions for improvements, please open an issue on the GitHub repository. Your feedback is highly valued and will help make this game even better.
 
 ### Credits
-This project was created with love by Maryna Snihurska (aka RinaSatsu). Special thanks to The Odin Project for their contributions to this project.
+This project was created with love by Maryna Snihurska. Special thanks to The Odin Project for their contributions to this project.
 
 
 
